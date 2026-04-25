@@ -21,5 +21,4 @@ pillow
 
 
 librosa
-webrtcvad-wheels
-# resemblyzer is installed via install.bat using --no-deps to avoid webrtcvad build
+resemblyzer
