@@ -1,0 +1,137 @@
+# ============================================================
+# SECRETS & CREDENTIALS — Never commit these!
+# ============================================================
+.streamlit/secrets.toml
+*.env
+.env
+.env.*
+secrets.toml
+config.toml
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ============================================================
+# Jupyter Notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Face Recognition / ML Data
+# ============================================================
+# Encoded face data (may contain student biometric info)
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.model
+*.pt
+*.pth
+
+# Audio embeddings / voice prints
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# ============================================================
+# Streamlit
+# ============================================================
+.streamlit/secrets.toml
+
+# ============================================================
+# IDE & Editor Files
+# ============================================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Logs & Temporary Files
+# ============================================================
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+tmp/
+
+# ============================================================
+# OS-specific
+# ============================================================
+# Windows
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ============================================================
+# Coverage & Testing
+# ============================================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================
+# Distribution / Packaging
+# ============================================================
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
